@@ -5,3 +5,5 @@ python:
 - 3.4
 - 3.5
 script: py.test -v
+env:
+  - ENV_VAR1="VARIABLE_CONTENT"
