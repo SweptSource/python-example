@@ -6,6 +6,6 @@ python:
 - 3.5
 script: py.test -v
 env:
-  - ENV_VAR1="VARIABLE_CONTENT"
+  - ENV_VAR1="przykladowy kontent zmiennej"
 before_install:
   - echo $ENV_VAR1
