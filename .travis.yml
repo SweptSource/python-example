@@ -7,3 +7,5 @@ python:
 script: py.test -v
 env:
   - ENV_VAR1="VARIABLE_CONTENT"
+before_install:
+  - echo $ENV_VAR1
