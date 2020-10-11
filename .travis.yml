@@ -3,4 +3,6 @@ sudo: false
 python:
 - 2.7
 - 3.4
+- 3.5
+before_script:  print('BEFORE_SCRIPT')
 script: py.test -v
