@@ -8,4 +8,6 @@ script: py.test -v
 env:
   - ENV_VAR1="przykladowy kontent zmiennej"
 before_install:
+before_script:
+  - echo "moj test"
   - echo $ENV_VAR1
